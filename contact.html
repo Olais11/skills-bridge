@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Skills Bridge Tanzania</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Skills Bridge Tanzania</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mission.html">Mission</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page-header">
+        <h1>Get in Touch</h1>
+    </div>
+
+    <div class="container">
+        <section class="section">
+            <div class="section1">
+                <div>
+                    <h2>Contact Us</h2>
+                    <p>Have questions, suggestions, or want to partner with us? We'd love to hear from you. Fill out the form and we'll get back to you as soon as possible.</p>
+                    
+                    <div style="margin-top: 2rem; padding: 1.5rem; background: #f8fafc; border-radius: 8px; border-left: 4px solid #3b82f6;">
+                        <h3 style="color: #1e3a8a; margin-bottom: 1rem;">Direct Contact</h3>
+                        <p style="margin: 0.5rem 0;"><strong>Email:</strong> j.laizer@alustudent.com</p>
+                        <p style="margin: 0.5rem 0;"><strong>Phone:</strong> +255 694 416 529</p>
+                        <p style="margin: 0.5rem 0;"><strong>Location:</strong> Dar es Salaam, Tanzania</p>
+                    </div>
+
+                
+                </div>
+
+                <div style="background: #f8fafc; padding: 2rem; border-radius: 8px;">
+                    <h3 style="color: #1e3a8a; margin-bottom: 1rem;">Ways to Get Involved</h3>
+                    <ul style="color: #475569; line-height: 2;">
+                        <li><strong>Youth Participants:</strong> Join our training programs and skill development initiatives</li>
+                        <li><strong>Partners:</strong> Collaborate with us to create employment opportunities</li>
+                        <li><strong>Mentors:</strong> Share your expertise and guide young professionals</li>
+                        <li><strong>Sponsors:</strong> Support our mission through funding and resources</li>
+                        <li><strong>Volunteers:</strong> Contribute your time and skills to our programs</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h2>Send Us a Message</h2>
+            <form id="contactForm" action="message.html">
+                <div>
+                    <div class="form-group">
+                        <label for="name">Full Name <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" required placeholder="john.doe@example.com">
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+255 XXX XXX XXX">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="interest">Area of Interest <span class="required">*</span></label>
+                        <select id="interest" name="interest" required>
+                            <option value="">Select an option</option>
+                            <option value="training">Join Training Program</option>
+                            <option value="partnership">Partnership Opportunity</option>
+                            <option value="volunteer">Volunteer/Mentor</option>
+                            <option value="funding">Funding/Investment</option>
+                            <option value="general">General Inquiry</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="organization">Organization/Institution (Optional)</label>
+                    <input type="text" id="organization" name="organization" placeholder="Your organization name">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message <span class="required">*</span></label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Tell us more about your inquiry or how you'd like to get involved..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="hear">How did you hear about us?</label>
+                    <select id="hear" name="hear">
+                        <option value="">Select an option</option>
+                        <option value="social">Social Media</option>
+                        <option value="friend">Friend/Colleague</option>
+                        <option value="search">Search Engine</option>
+                        <option value="event">Event/Workshop</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="consent" required>
+                        <span>I agree to be contacted regarding my inquiry <span class="required">*</span></span>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="newsletter">
+                        <span>I would like to receive updates about Skills Bridge Tanzania programs and initiatives</span>
+                    </label>
+                </div>
+
+                <button type="submit">Submit Message</button>
+
+                <div id="confirmationMessage">
+                    <strong>✓ Thank you for reaching out!</strong><br>
+                    Your message has been received successfully. Our team will review your inquiry and respond within 2-3 business days. If your matter is urgent, please email us directly at olais.laizer@alche.ac.tz.
+                </div>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Skills Bridge Tanzania. Empowering Youth, Building Futures.</p>
+        <p>A social initiative by Olais Julius Laizer | ALCHE</p>
+    </footer>
+
+
+</body>
+</html>
